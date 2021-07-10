@@ -1,26 +1,27 @@
-*{
-    /* box-sizing: border-box; */
+:root{
+    --header-color: #B5EAEA;
+}
+body{
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 .head{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    border: 10px solid yellowgreen;
+    background-color: var(--header-color);
+    position: relative;
+    margin: auto;
+    padding: 6rem 0 0 0;
+    position: relative;
 }
-
-.mid-container{
-    height: 200px;
-    width: 200px;
-    background-color: navajowhite;
-    border: 20px solid rgb(240, 112, 38);
-    margin-left: 260px;
+.top-cloud{
+    position: absolute; 
+    top: 4rem;
+    right: 30%;
 }
-.bottom-container{
+ 
+.bottom-cloud{
+    position: absolute;
+    left: 40%rem;
+    top: 12rem;
     
-    background-color: rgb(30, 202, 224);
-    border: 10px solid yellowgreen;
-   
-}
+} 
